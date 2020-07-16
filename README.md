@@ -1,3 +1,8 @@
+CNRG
+====
+
+**Description**:
+
 Code repository for the paper *Modelling graphs with Vertex Replacement Grammars* by 
 *Satyaki Sikdar, Justus Hibshman, and Tim Weninger*. Find the preprint <a href="https://arxiv.org/abs/1908.03837">here</a>.
 
