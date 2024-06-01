@@ -114,7 +114,7 @@ def alias_setup(probs):
     '''
     K = len(probs)
     q = np.zeros(K)
-    J = np.zeros(K, dtype=np.int)
+    J = np.zeros(K, dtype=int)
 
     smaller = []
     larger = []
@@ -165,5 +165,5 @@ def get_embeddings(emb_filename='./tmp/temp.emb'):
     g is undirected for the time being
     """
     df = pd.read_csv(emb_filename, skiprows=1, sep=' ', header=None)  # maybe switch to Numpy read file functions
-    return df.as_matrix()
+    return df.values #.as_matrix()
 

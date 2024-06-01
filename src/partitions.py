@@ -19,8 +19,8 @@ from scipy.cluster.hierarchy import linkage, to_tree, cophenet
 from scipy.spatial.distance import pdist
 from sklearn.cluster import KMeans
 
-import src.node2vec as n2v
-from src.LightMultiGraph import LightMultiGraph
+import CNRG.src.node2vec as n2v
+from CNRG.src.LightMultiGraph import LightMultiGraph
 
 def leiden_one_level_old(g):
     if g.size() < 3 and nx.is_connected(g):
